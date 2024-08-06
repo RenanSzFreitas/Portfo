@@ -6,18 +6,19 @@ import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './Techn
 const Technologies = () =>  (
 <Section id="tech">
   <SectionDivider />
-  <SectionTitle>Technologies</SectionTitle>
+  <br />
+  <SectionTitle>Tecnologia</SectionTitle>
   <SectionText>
     Lorem ipsum dolor sit amet, consectetur adip incididunt
   </SectionText>
   <List>
     <ListItem>
-      <DiFirebase size="3rem"/>
+      <DiReact size="3rem"/>
       <ListContainer>
         <ListTitle>Front-End</ListTitle>
         <ListParagraph>
           Experiência com <br />
-          React.JS, 
+          React.JS e Bootstrap, 
         </ListParagraph>
       </ListContainer>
     </ListItem>
@@ -27,12 +28,12 @@ const Technologies = () =>  (
         <ListTitle>Back-End</ListTitle>
         <ListParagraph>
           Experiência com <br />
-          .NET e Banco de Dados
+          JavaScript, .NET, Python e Banco de Dados
         </ListParagraph>
       </ListContainer>
     </ListItem>
     <ListItem>
-      <DiFirebase size="3rem"/>
+      <DiZend size="3rem"/>
       <ListContainer>
         <ListTitle>UI/UX</ListTitle>
         <ListParagraph>
@@ -42,6 +43,7 @@ const Technologies = () =>  (
       </ListContainer>
     </ListItem>
   </List>
+  <SectionDivider/>
 </Section>
 );
 
