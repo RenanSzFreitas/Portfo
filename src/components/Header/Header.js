@@ -10,7 +10,7 @@ const Header = () =>  (
   <Div1>
     <Link href="/">
       <a style={{display: "flex", alignItems: "center", color: "white", marginBottom: "20px" }}>
-      <img src='images/rf-static.png' style={{ width: "8rem", height: "5rem" }} /> <Span>Portfólio</Span>
+      <img src='images/rf-static.png' style={{ width: "8rem", height: "5rem" }} />
       </a>
     </Link>
   </Div1>

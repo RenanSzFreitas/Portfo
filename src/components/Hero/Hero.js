@@ -12,9 +12,9 @@ const Hero = (props) => (
       Ao meu Portifólio
     </SectionTitle>
     <SectionText>
-      Lorem ipsum dolor sit amet
+      Prazer! Me chamo Renan de Souza Freitas e sou Dev Full-Stack focado em Front-End e Banco de Dados.
     </SectionText>
-    <Button onClick={() => window.location = "https://google.com"}>Saiba Mais</Button>
+    <Button onClick={() => window.location = "https://github.com/RenanSzFreitas"}>Saiba Mais</Button>
   </LeftSection>
 </Section>
 );
